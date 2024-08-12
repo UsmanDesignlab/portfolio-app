@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.home {
+  margin-bottom: 150px;
+}
+
+.one h3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: lightgray;
+  font-size: 16px;
+  margin-top: 120px;
+}
+
+.one_head h1 {
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 160px;
+  margin-top: 40px;
+}
+
+.one_head h1 span {
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+  color: #666666;
+}
+
+
+@keyframes slightMoveUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.one_head {
+  animation: slightMoveUp 1s ease-out forwards;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 500px;
+  height: 600px;
+  background-image: url('../../../../public/Usman.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: -120px;
+}
+
+.hello {
+  text-align: center;
+}
+
+.hello h4 {
+  font-family: sans-serif;
+  color: #666666;
+  margin-top: 28px;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 100px;
+}
+
+.flex h3 {
+  color: #666666;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.flex i {
+  font-size: 17px;
+}
+
+.icons a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.icons a:hover {
+  color: #666666;
+}
+
+
+.two h1 {
+  color: #fff;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+
+.two span {
+  color: #666666;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 200px;
+  margin-top: 20px;
+}
+
+.portfolio .us {
+  width: 640px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: background-position 1s ease;
+}
+
+.portfolio .us:hover {
+  background-position: calc(50% + 10px) calc(50% - 10px);
+}
+
+.first {
+  background-image: url('../../../../public/Block.png');
+}
+
+.second {
+  background-image: url('../../../../public/NFT.png');
+}
+
+.third {
+  margin-top: 50px;
+  background-image: url('../../../../public/furniture.png');
+}
+
+.forth {
+  margin-top: 50px;
+  background-image: url('../../../../public/code.png');
+}
+
+.overlay-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.portfolio .us:hover .overlay-link {
+  opacity: 1;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 200px;
+  margin-top: 20px;
+}
+
+.portfolio .us {
+  width: 640px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.us a {
+  width: 200px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 150px;
+}
+
+.us a i {
+  padding-right: 8px;
+}
+
+.portfolio .us img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+}
+
+.portfolio .us:hover img {
+  transform: translateX(10px) translateY(-10px);
+}
+
+.overlay-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.portfolio .us:hover .overlay-link {
+  opacity: 1;
+}
+
+.get {
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+}
+
+.get h3 {
+  color: #666666;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.get h1 {
+  font-size: 180px;
+  color: white;
+}
+
+.get span {
+  color: #666666;
+}
+
+.get a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  transition: color 0.5s;
+}
+
+.get a:hover {
+  color: #666666;
+}

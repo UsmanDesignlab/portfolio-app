@@ -1,0 +1,39 @@
+.nav {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.5s;
+}
+
+.logo:hover h1 {
+  color: #666666;
+}
+
+.list ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+}
+
+
+.list a:hover {
+  color: #666666;
+}

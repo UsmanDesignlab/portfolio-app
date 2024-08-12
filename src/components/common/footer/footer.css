@@ -1,0 +1,19 @@
+.feet {
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+}
+
+.design {
+  margin-left: 70px;
+  padding-top: 50px;
+}
+
+.design span {
+  color: #666666;
+}

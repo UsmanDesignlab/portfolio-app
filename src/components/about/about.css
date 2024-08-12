@@ -1,0 +1,129 @@
+.about {
+  margin-bottom: 100px;
+}
+
+
+.name h1 {
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+  color: white;
+  font-size: 200px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.name span {
+  color: #666666;
+}
+
+@keyframes slightMove {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.name {
+  animation: slightMove 1s ease-out forwards;
+}
+
+.des {
+  margin-top: 100px;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 170px;
+  margin-top: 100px;
+}
+
+.experience h1 {
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+}
+
+.experience span {
+  color: #666666;
+}
+
+.experience h3 {
+  color: #666666;
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+  font-size: 30px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.four {
+  padding-left: 50px;
+  width: 40%;
+}
+
+.four h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.four span {
+  color: #666666;
+}
+
+.branding {
+  width: 60%;
+  color: #666666;
+  font-family: sans-serif;
+}
+
+.r {
+  display: flex;
+}
+
+.web {
+  gap: 270px;
+  margin-top: 5px;
+}
+
+.strategy {
+  gap: 281px;
+  margin-top: 30px;
+}
+
+.direction {
+  gap: 232px;
+  margin-top: 30px;
+}
+
+.line hr {
+  margin-top: 30px;
+  width: 90%;
+}
