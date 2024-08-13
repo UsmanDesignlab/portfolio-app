@@ -61,7 +61,7 @@
   text-align: center;
 }
 
-.hello h4 {
+.hello h5 {
   font-family: sans-serif;
   color: #666666;
   margin-top: 28px;
@@ -144,12 +144,10 @@
 }
 
 .third {
-  margin-top: 50px;
   background-image: url('../../../../public/furniture.png');
 }
 
 .forth {
-  margin-top: 50px;
   background-image: url('../../../../public/code.png');
 }
 
