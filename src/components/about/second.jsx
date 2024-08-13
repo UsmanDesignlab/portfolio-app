@@ -30,29 +30,29 @@ const Second = () => {
       </div>
       <div className='des'>
         <div className='hello'>
-        <h4>
-        I am a passionate web designer and developer with 1 year of experience.<br></br> I specialize in creating engaging and user-friendly websites to enhance online presence.<br></br> Dedicated to combining creativity with functionality, I am eager to contribute to innovative projects and help businesses thrive online.
-        </h4>
+        <h5>
+        I am a passionate web designer and developer with 1 year of experience.<br></br> I specialize in creating engaging and user-friendly websites to enhance online<br></br> presence.Dedicated to combining creativity with functionality, I am eager to <br></br>contribute to innovative projects and help businesses thrive online.
+        </h5>
       </div>
       </div>
       <div className="experience">
-      <div className="project">
+      <div className="project real">
         <h1 ref={ref} className={inView ? 'fade-in' : ''}>
           {projectsCount}<span>+</span>
         </h1>
         <h3>PROJECT DONE</h3>
       </div>
-      <div className="eighteen">
+      <div className="eighteen real">
         <h1 className={inView ? 'fade-in' : ''}>{recognitionsCount}</h1>
         <h3>RECOGNITIONS</h3>
       </div>
-      <div className="years">
+      <div className="years real">
         <h1 className={inView ? 'fade-in' : ''}>
           {yearsCount}<span>+</span>
         </h1>
         <h3>YEARS OF EXPERIENCE</h3>
       </div>
-      <div className="unhappy">
+      <div className="unhappy real">
         <h1 className={inView ? 'fade-in' : ''}>{unhappyClientsCount}</h1>
         <h3>UNHAPPY CLIENTS</h3>
       </div>

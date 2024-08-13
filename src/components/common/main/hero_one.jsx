@@ -16,10 +16,10 @@ const One = () => {
       <div class="image-container">
        <div class="img"></div> 
       </div>
-      <div className='hello'>
-        <h4>Hello</h4>
-        <h4>I'm Muhammad Usman, a skilled frontend developer and UI/UX designer.<br></br>I specialize in creating engaging and intuitive user interfaces that enhance the overall user experience.<br></br>Passionate about combining aesthetics with functionality,I strive to deliver high-quality digital solutions.
-        </h4>
+      <div className='hello media'>
+        <h5>Hello</h5>
+        <h5>I'm Muhammad Usman, a skilled frontend developer and UI/UX designer.<br></br>I specialize in creating engaging and intuitive user interfaces that enhance the<br></br> overall user experience.Passionate about combining aesthetics with<br></br> functionality,I strive to deliver high-quality digital solutions.
+        </h5>
       </div>
     </div>
     <div className="flex">
